@@ -31,6 +31,7 @@ public class Roll extends Item {
 
     @Override
     public String getDescription(){
+        // Выводим сначала поля родительского класса, а потом - только что созданные
         return super.getDescription() + "\n" +
                 "Начинка: " + this.filling + "\n" +
                 (this.isOpen ? "Открытый": "Закрытый");
