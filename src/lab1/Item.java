@@ -36,8 +36,8 @@ public class Item {
     }
 
     public String getDescription(){
-        return "Наименование: " + this.name + "\n" +
-                "Цена: " + this.price + " руб.\n" +
-                "Вес: " + this.weight + " г";
+        return "Наименование: " + this.getName() + "\n" +
+                "Цена: " + this.getPrice() + " руб.\n" +
+                "Вес: " + this.getWeight() + " г";
     }
 }

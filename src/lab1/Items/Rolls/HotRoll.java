@@ -22,6 +22,6 @@ public class HotRoll extends Roll {
     @Override
     public String getDescription(){
         return super.getDescription() + "\n" +
-                (this.isFried ? "Жареный": "Запеченый");
+                (this.getFried() ? "Жареный": "Запеченый");
     }
 }
